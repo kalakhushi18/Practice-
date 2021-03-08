@@ -9,6 +9,9 @@ import Counter from './components/Counter'
 import Function from './components/FunctionClick'
 import ClassClick from './components/ClassClick'
 import BindingEvent from './components/BindingEvent'
+import ParentComponent from './components/ParentComponent';
+import Conditional from './components/Conditional';
+import List from './components/List';
 
 
 function App() {
@@ -22,6 +25,9 @@ function App() {
      <Function></Function>
      <ClassClick></ClassClick>
      <BindingEvent></BindingEvent>
+     <ParentComponent></ParentComponent>
+     <Conditional></Conditional>
+     <List></List>
     </div>
 
   );
