@@ -12,12 +12,24 @@ import BindingEvent from './components/BindingEvent'
 import ParentComponent from './components/ParentComponent';
 import Conditional from './components/Conditional';
 import List from './components/List';
-
+import StyleSheets from './components/StyleSheets'
+import Inline from './components/Inline';
+import './appstyle.css'
+import Form from './components/Form';
+import MountingPhase from './components/MountingPhase';
+import Frag from './components/Frag';
+// import style from './appstyle.module.css'
 
 function App() {
   return (
     <div className="App">
-     <Greet name= "khushi" other = "other"><p>hello</p><p>hello1</p>  </Greet>
+      {/* <MountingPhase></MountingPhase> */}
+      <Frag></Frag>
+{/* <Form></Form> */}
+      {/* <h1 className='error'>Hello</h1>
+      <Inline></Inline> */}
+      {/* <StyleSheets></StyleSheets> */}
+     {/* <Greet name= "khushi" other = "other"><p>hello</p><p>hello1</p>  </Greet>
      <Welcome name = "khushi kala " other = "otherssss"></Welcome>
      <Hello></Hello>
      <Message></Message>
@@ -27,10 +39,13 @@ function App() {
      <BindingEvent></BindingEvent>
      <ParentComponent></ParentComponent>
      <Conditional></Conditional>
-     <List></List>
+     <List></List> */}
+     {/* <BindingEvent></BindingEvent> */}
     </div>
 
   );
 }
 
 export default App;
+
+//module css approach 

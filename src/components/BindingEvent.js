@@ -7,7 +7,7 @@ import React, { Component } from 'react'
          this.state = {
               message : "hello"
          }
-      //this.clickhandler=    this.clickhandler.bind(this)
+    //  this.clickhandler=    this.clickhandler.bind(this)
      }
      
 //      clickhandler(){
@@ -16,7 +16,7 @@ import React, { Component } from 'react'
 // })
 //      }
     clickhandler = ()=> {
-    this.setstate({
+    this.setState({
         message:"good"
         }
     )
