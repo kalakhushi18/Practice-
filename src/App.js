@@ -18,13 +18,20 @@ import './appstyle.css'
 import Form from './components/Form';
 import MountingPhase from './components/MountingPhase';
 import Frag from './components/Frag';
+import Login from './components/Login';
+import PureComponent from './components/PureComponent';
+import Refs from './components/Refs';
+
 // import style from './appstyle.module.css'
 
 function App() {
   return (
     <div className="App">
+      <Refs></Refs>
+      {/* <PureComponent></PureComponent> */}
+      {/* <Login></Login> */}
       {/* <MountingPhase></MountingPhase> */}
-      <Frag></Frag>
+      {/* <Frag></Frag> */}
 {/* <Form></Form> */}
       {/* <h1 className='error'>Hello</h1>
       <Inline></Inline> */}
@@ -48,4 +55,5 @@ function App() {
 
 export default App;
 
-//module css approach 
+
+//react.memo
