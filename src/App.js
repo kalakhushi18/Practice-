@@ -21,13 +21,24 @@ import Frag from './components/Frag';
 import Login from './components/Login';
 import PureComponent from './components/PureComponent';
 import Refs from './components/Refs';
+import FrInputREf from './components/FrInputREf';
+import Portalsdemo from './components/Portalsdemo';
+import HeroName from './components/HeroName';
+import Names from './components/Names';
+import ErroBoudary from './components/ErroBoudary';
 
 // import style from './appstyle.module.css'
 
 function App() {
   return (
     <div className="App">
-      <Refs></Refs>
+      <ErroBoudary>
+     <Names name = "a"></Names>
+     <Names name = "b"></Names>
+     </ErroBoudary>
+      {/* <Portalsdemo></Portalsdemo> */}
+      {/* <FrInputREf></FrInputREf> */}
+      {/* <Refs></Refs> */}
       {/* <PureComponent></PureComponent> */}
       {/* <Login></Login> */}
       {/* <MountingPhase></MountingPhase> */}
