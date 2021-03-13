@@ -27,13 +27,20 @@ import HeroName from './components/HeroName';
 import Names from './components/Names';
 import ErroBoudary from './components/ErroBoudary';
 import ClickCounter from './components/ClickCounter';
+import ComponentC from './components/ComponentC';
+import { UserProvider } from './components/userContext';
+import PostList from './components/PostList';
 
 // import style from './appstyle.module.css'
 
 function App() {
   return (
     <div className="App">
-      <ClickCounter></ClickCounter>
+      <PostList></PostList>
+      {/* <UserProvider   > */}
+      {/* <ComponentC></ComponentC> */}
+      {/* </UserProvider> */}
+      {/* <ClickCounter></ClickCounter> */}
       {/* <ErroBoudary>
      <Names name = "a"></Names>
      <Names name = "b"></Names>
