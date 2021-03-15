@@ -30,13 +30,17 @@ import ClickCounter from './components/ClickCounter';
 import ComponentC from './components/ComponentC';
 import { UserProvider } from './components/userContext';
 import PostList from './components/PostList';
+import FormPost from './components/FormPost';
+import ToDoList from './components/ToDoList';
 
 // import style from './appstyle.module.css'
 
 function App() {
   return (
     <div className="App">
-      <PostList></PostList>
+      <ToDoList></ToDoList>
+      {/* <FormPost></FormPost> */}
+      {/* <PostList></PostList> */}
       {/* <UserProvider   > */}
       {/* <ComponentC></ComponentC> */}
       {/* </UserProvider> */}
