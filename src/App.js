@@ -32,13 +32,15 @@ import { UserProvider } from './components/userContext';
 import PostList from './components/PostList';
 import FormPost from './components/FormPost';
 import ToDoList from './components/ToDoList';
+import HookCounter from './components/HookCounter';
 
 // import style from './appstyle.module.css'
 
 function App() {
   return (
     <div className="App">
-      <ToDoList></ToDoList>
+      <HookCounter></HookCounter>
+      {/* <ToDoList></ToDoList> */}
       {/* <FormPost></FormPost> */}
       {/* <PostList></PostList> */}
       {/* <UserProvider   > */}
